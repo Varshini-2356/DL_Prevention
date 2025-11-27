@@ -14,8 +14,8 @@ TWILIO_TO=+91xxxxxxxxx
 
 
 files_to_monitor = [
-   "C:/Varshu-projects/varsh-eg1.txt",
-   "C:/Varshu-projects/varsh-eg.2.txt"
+   "1st file's path",
+   "2nd file's path also include more"
 ]
 
 previous_contents = {}
@@ -113,4 +113,5 @@ def monitor_files(file_paths):
     observer.join()
 
 if __name__ == "__main__":
+
     monitor_files(files_to_monitor)
